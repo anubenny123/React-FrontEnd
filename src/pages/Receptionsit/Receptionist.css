@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.brand {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.container-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    background: #fff;
+    border-radius: 24px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.small-box {
+    display: flex;
+    width: 160px;
+    height: 56px;
+    margin-left: 20px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #0067FF;
+    box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+}
+
+.small-box h4 {
+    cursor: pointer;
+    color: #fff;
+}
+
+.table {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-collapse: collapse;
+    border: none;
+
+}
+
+
+
+.table thead {
+
+    display: flex;
+    width: 856.811px;
+    height: 64.379px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(47, 128, 237, 0.10);
+
+
+}
+
+.table th {
+    
+    min-width: 150px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.table tr {
+    display: flex;
+    width: 856.811px;
+    height: 64.379px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(170, 170, 170, 0.05);
+
+}
+
+.table td {
+    min-width: 150px;
+    max-width: 500px;
+    text-align: center;
+
+}
+
+ .table .button-1  , .button-3{
+    background-color: #FF4869;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.table .button-2 {
+    background-color: #3AC318;;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
